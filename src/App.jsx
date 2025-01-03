@@ -1,9 +1,10 @@
 import "./App.css"
+import {Button} from "@Components"
 
 function App() {
   return (
     <>
-      <h3>Base App</h3>
+      <Button />
     </>
   )
 }

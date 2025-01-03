@@ -1,7 +1,64 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "src/*"
+      ],
+      "@Assets/*": [
+        "src/assets*"
+      ],
+      "@Assets": [
+        "src/assets"
+      ],
+      "@Components/*": [
+        "src/components*"
+      ],
+      "@Components": [
+        "src/components"
+      ],
+      "@Hooks/*": [
+        "src/hooks*"
+      ],
+      "@Hooks": [
+        "src/hooks"
+      ],
+      "@Utils/*": [
+        "src/utils*"
+      ],
+      "@Utils": [
+        "src/utils"
+      ],
+      "@Contexts/*": [
+        "src/contexts*"
+      ],
+      "@Contexts": [
+        "src/contexts"
+      ],
+      "@Redux/*": [
+        "src/redux*"
+      ],
+      "@Redux": [
+        "src/redux"
+      ],
+      "@I18n/*": [
+        "src/translations*"
+      ],
+      "@I18n": [
+        "src/translations"
+      ],
+      "@Routes/*": [
+        "src/routes*"
+      ],
+      "@Routes": [
+        "src/routes"
+      ],
+      "@Services/*": [
+        "src/services*"
+      ],
+      "@Services": [
+        "src/services"
+      ],
     }
   }
 }
