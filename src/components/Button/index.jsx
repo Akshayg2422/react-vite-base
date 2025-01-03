@@ -2,7 +2,7 @@ import React from "react";
 import MuiButton from "@mui/material/Button";
 import { CircularProgress } from "@mui/material";
 
-const Button = ({
+export const Button = ({
   startIcon,
   endIcon,
   color,
@@ -55,5 +55,3 @@ const Button = ({
     </MuiButton>
   );
 };
-
-export default Button;

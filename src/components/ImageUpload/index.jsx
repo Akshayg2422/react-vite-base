@@ -1,9 +1,7 @@
 import React from "react";
 import { Box, Typography, IconButton, Snackbar, Alert } from "@mui/material";
-import uploadIcon from "../../assets/svg/upload.svg";
-import deleteIcon from "../../assets/svg/closeRoundRed.svg";
-import fileUploaded from "../../assets/svg/fileLine.svg";
-import useSnackbar from "../../hooks/useSnackbar"; // Adjust the import path as needed
+import { closeArrowRed, fileUploaded, upload } from "@Assets";
+import { useSnackbar } from "@Hooks";
 
 const ImageUpload = ({ selectedImages, setSelectedImages, onRemoveImage }) => {
   const {
@@ -109,7 +107,7 @@ const ImageUpload = ({ selectedImages, setSelectedImages, onRemoveImage }) => {
                 }}
                 size="small"
               >
-                <img src={deleteIcon} alt="delete icon" />
+                <img src={closeArrowRed} alt="delete icon" />
               </IconButton>
             </Box>
           );
@@ -126,7 +124,7 @@ const ImageUpload = ({ selectedImages, setSelectedImages, onRemoveImage }) => {
             />
             <label htmlFor="upload-image">
               <IconButton component="span">
-                <img src={uploadIcon} alt="uploadIcon" />
+                <img src={upload} alt="uploadIcon" />
               </IconButton>
             </label>
           </Box>

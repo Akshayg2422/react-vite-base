@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const useSnackbar = () => {
+export const useSnackbar = () => {
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const [snackbarMessage, setSnackbarMessage] = useState("");
   const [snackbarSeverity, setSnackbarSeverity] = useState("error");
@@ -26,5 +26,3 @@ const useSnackbar = () => {
     handleCloseSnackbar,
   };
 };
-
-export default useSnackbar;

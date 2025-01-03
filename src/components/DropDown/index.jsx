@@ -6,7 +6,7 @@ import {
   TextField,
   Autocomplete,
 } from "@mui/material";
-import downArrow from "../../assets/svg/downArrow.svg";
+import { downArrow } from "@Assets";
 
 const Dropdown = ({
   className,
@@ -75,9 +75,9 @@ const Dropdown = ({
                     },
                     ...(highlightSelectedValue && value
                       ? {
-                          color: "var(--custom-primary)",
-                          fontWeight: "bold",
-                        }
+                        color: "var(--custom-primary)",
+                        fontWeight: "bold",
+                      }
                       : {}),
                   },
                 }}
