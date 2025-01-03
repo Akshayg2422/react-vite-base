@@ -1,9 +1,12 @@
 import "./App.css"
+import Button from "./components/Button"
+import CustomSkeleton from "./components/Skeleton"
 
 function App() {
   return (
     <>
-      <h3>Base App</h3>
+     <Button text={'Submit'}/>
+     <CustomSkeleton height={120} width={120}/>
     </>
   )
 }
