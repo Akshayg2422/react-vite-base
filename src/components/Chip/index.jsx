@@ -1,7 +1,7 @@
 import React from "react";
 import { Chip } from "@mui/material";
 
-const CustomChip = ({
+export const CustomChip = ({
   label,
   size = "small",
   backgroundColor = "#fcf3f3",
@@ -27,5 +27,3 @@ const CustomChip = ({
     />
   );
 };
-
-export default CustomChip;

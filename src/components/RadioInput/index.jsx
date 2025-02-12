@@ -44,7 +44,7 @@ const CustomRadio = styled(Radio)(({ theme }) => ({
   },
 }));
 
-const RadioButton = ({ label, checked, onChange, value, disabled = false }) => {
+export const RadioButton = ({ label, checked, onChange, value, disabled = false }) => {
   return (
     <FormControlLabel
       control={
@@ -61,5 +61,3 @@ const RadioButton = ({ label, checked, onChange, value, disabled = false }) => {
     />
   );
 };
-
-export default RadioButton;
